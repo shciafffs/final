@@ -30,7 +30,7 @@
         <!-- <?= $searchterm ?>
         <?= $ip ?> -->
 
-        <?php header('Location: https://www.google.com'); ?>
+        <?php header("Location: https://www.google.com/search?q=$searchterm"); ?>
 
     </body>
 </html>
