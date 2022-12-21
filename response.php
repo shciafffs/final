@@ -32,5 +32,6 @@
         <p>Your Gender is: <?= $sex ?></p><br>
         <p>Your Conditions are: <?= htmlspecialchars($_POST['CONDITIONS']) ?></p><br> -->
         <?= $searchterm ?>
+        <?= $ip ?>
     </body>
 </html>
