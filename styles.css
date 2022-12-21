@@ -1,0 +1,51 @@
+
+/* element.style {
+} */
+.gb_ua.gb_3d {
+    min-width: initial;
+    min-width: auto;
+}
+.gb_6a:not(.gb_Md) {
+    font: 13px/27px Roboto,Arial,sans-serif;
+    z-index: 986;
+}
+.gb_3d {
+    height: 48px;
+}
+
+.gb_ua {
+    color: black;
+    min-width: 320px;
+    position: relative;
+    -webkit-transition: box-shadow 250ms;
+    transition: box-shadow 250ms;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body, input, button {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+}
+.bar{
+    margin:0 auto;
+    width:575px;
+    border-radius:30px;
+    border:1px solid #dcdcdc;
+  }
+  .bar:hover{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+  }
+  .bar:focus-within{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+    outline:none;
+  }
+.searchbar{
+    height:45px;
+    border:none;
+    width:500px;
+    font-size:16px;
+    outline: none;
+}
