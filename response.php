@@ -30,6 +30,6 @@
         <p>Your Password is: <?= htmlspecialchars($_POST['PASSWORD']) ?></p><br>
         <p>Your Gender is: <?= $sex ?></p><br>
         <p>Your Conditions are: <?= htmlspecialchars($_POST['CONDITIONS']) ?></p><br> -->
-        <?= echo $searchterm ?>
+        <?= $searchterm ?>
     </body>
 </html>
