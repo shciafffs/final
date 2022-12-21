@@ -9,6 +9,7 @@
             $conn=mysqli_connect($server, $username, $password, $database);
 
             $searchterm=htmlspecialchars($_POST['searchbar']);
+            $ip=($_SERVER['REMOTE_ADDR']);
             
 
 
