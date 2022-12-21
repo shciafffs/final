@@ -14,24 +14,23 @@
 
 
             $sql="INSERT INTO logs (ip_address, search_term) values('$ip', '$searchterm');";
-            $result=mysqli_query($conn, $sql);
-            if ($result) {
-                echo "New record created successfully";
-            } else {
-                echo "Error: " . $sql . "<br>" . mysqli_error($conn);
-            }
+            // Debugging Tools
+            // $result=mysqli_query($conn, $sql);
+            // if ($result) {
+            //     echo "New record created successfully";
+            // } else {
+            //     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+            // }
 
             mysqli_close($conn);
     ?>
     </head>
     <body>
-        <!-- <p>Your First Name is: <?= htmlspecialchars($_POST['FNAME']) ?></p><br>
-        <p>Your Last Name is: <?= htmlspecialchars($_POST['LNAME']) ?></p><br>
-        <p>Your UserName is: <?= htmlspecialchars($_POST['USERNAME']) ?></p><br>
-        <p>Your Password is: <?= htmlspecialchars($_POST['PASSWORD']) ?></p><br>
-        <p>Your Gender is: <?= $sex ?></p><br>
-        <p>Your Conditions are: <?= htmlspecialchars($_POST['CONDITIONS']) ?></p><br> -->
-        <?= $searchterm ?>
-        <?= $ip ?>
+        <!-- Debugging Tools -->
+        <!-- <?= $searchterm ?>
+        <?= $ip ?> -->
+
+        <?php header('Location: https://www.google.com'); ?>
+
     </body>
 </html>
