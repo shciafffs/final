@@ -23,14 +23,13 @@
             // }
 
             mysqli_close($conn);
+            
+            header("Location: https://www.google.com/search?q=$searchterm");
     ?>
     </head>
     <body>
         <!-- Debugging Tools -->
         <!-- <?= $searchterm ?>
         <?= $ip ?> -->
-
-        <?php header("Location: https://www.google.com/search?q=$searchterm"); ?>
-
     </body>
 </html>
