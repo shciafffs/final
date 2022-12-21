@@ -14,8 +14,8 @@
 
 
             $sql="INSERT INTO logs (ip_address, search_term) values('$ip', '$searchterm');";
+            $result=mysqli_query($conn, $sql);
             // Debugging Tools
-            // $result=mysqli_query($conn, $sql);
             // if ($result) {
             //     echo "New record created successfully";
             // } else {
